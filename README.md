@@ -234,7 +234,7 @@ Mỗi nhóm dùng repo này làm mẫu, sau đó thay phần IoT bằng service 
 
 | Nhóm | Cần thay đổi |
 |---|---|
-| `team-iot` | Có thể dùng mẫu này trực tiếp, mở rộng thêm endpoint từ Lab 03 |
+| `nhom14` | Có thể dùng mẫu này trực tiếp, mở rộng thêm endpoint từ Lab 03 |
 | `team-camera` | Thay `src/` bằng Camera Stream service, thêm OpenCV headless |
 | `team-gate` | Thay bằng Access Gate service, lưu ý biến môi trường DB |
 | `team-vision` | Thay bằng AI Vision service, chuẩn bị model YOLOv8n hoặc mock model |
@@ -270,7 +270,7 @@ v0.1.0-<team>
 Ví dụ:
 
 ```bash
-docker tag fit4110/iot-ingestion:lab04 ghcr.io/<owner>/team-iot:v0.1.0-team-iot
+docker tag fit4110/iot-ingestion:lab04 ghcr.io/fit-17-09/team14:v0.1.0-team14
 ```
 
 ---
